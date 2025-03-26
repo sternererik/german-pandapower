@@ -152,4 +152,4 @@ m.get_root().html.add_child(folium.Element(legend_html))
 
 # Save map with a different name to indicate 110kV filtering
 m.save(os.path.join(data_dir, "power_grid_visualization_110kv.html"))
-print("✅ Power Flow Map Saved: 'power_grid_visualization_110kv.html' in data directory") 
+print("Power Flow Map Saved: 'power_grid_visualization_110kv.html' in data directory") 
